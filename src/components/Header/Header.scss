@@ -1,0 +1,20 @@
+.AppBar {
+  &.ui.menu {
+    background-color: #00033a;
+    border-radius: unset;
+    .item {
+      color: whitesmoke;
+      &:hover {
+        color: white;
+        background-color: rgba(187, 187, 187, 0.2) !important;
+      }
+      &.active {
+        color: wheat;
+        background-color: rgba(187, 187, 187, 0.2);
+        &:hover {
+          color: white;
+        }
+      }
+    }
+  }
+}
